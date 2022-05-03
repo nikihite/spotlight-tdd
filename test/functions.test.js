@@ -45,7 +45,16 @@ skip ('this test should take 3 numbers, divide first by second; then multiply re
     
 });
 
-test ('this test should take 3 separate numbers and return them as one big number string', (expect) => {
+test ('this test should take in 3 numbers and return them in an array', (expect) => {
+
+    const expected = [3, 2, 1];
+
+    const actual = returnAsAnArray(3, 2, 1);
+
+    expect.deepEqual(actual, expected);
+});
+
+skip ('this test should take 3 separate numbers and return them as one big number string', (expect) => {
     const expected = 732;
 
     const actual = returnAsAString(7, 3, 2,);
