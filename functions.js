@@ -71,7 +71,8 @@ export function divideThenMultiply(firstNumber, secondNumber, thirdNumber) {
     return firstNumber / secondNumber * thirdNumber;
 }
 
-// This function should take in three numbers and return those numbers in an array
+// This function should take in three numbers and return those numbers
+// in an array
 
 /* 
 Input:
@@ -87,7 +88,8 @@ export function returnAsAnArray(firstNumber, secondNumber, thirdNumber) {
     return true;
 }
 
-// This function should take in three numbers and return those numbers mushed together as a string
+// This function should take in three numbers and return 
+//those numbers mushed together as a string
 
 /* 
 Input:
@@ -100,10 +102,11 @@ Output:
 */
 
 export function returnAsAString(firstNumber, secondNumber, thirdNumber) {
-    return true;
+    return `${firstNumber}` + `${secondNumber}` + `${thirdNumber}`;
 }
 
-// This function should take in two numbers and return a greeting announcing that the sum of those numbers is today's lucky number
+// This function should take in two numbers and return a
+// greeting announcing that the sum of those numbers is today's lucky number
 
 /* 
 Input:
