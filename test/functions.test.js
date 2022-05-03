@@ -34,3 +34,13 @@ test ('this test should take a number and multiply that number by 12 and then, d
 
     expect.equal(actual, expected);
 });
+
+test ('this test should take 3 numbers, divide first by second; then multiply result by third number', (expect) => {
+
+    const expected = 15;
+
+    const actual = divideThenMultiply(25, 5, 3,);
+
+    expect.equal(actual, expected);
+    
+});
