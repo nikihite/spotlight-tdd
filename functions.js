@@ -119,7 +119,7 @@ Output:
 */
 
 export function makeLuckyGreeting(firstNumber, secondNumber) {
-    return true;
+    return (Number(firstNumber) + Number(secondNumber));
 }
 
 // This function should take an array and return the second item in the array
