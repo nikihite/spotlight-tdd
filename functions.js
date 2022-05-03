@@ -20,7 +20,8 @@ export function addExclamationPoints(string) {
     return `${string}!!!`;
 }
 
-// This function should take in a number and multiply it by seven
+// This function should take in a number 
+//and multiply it by seven
 
 /* 
 Input:
@@ -33,7 +34,7 @@ Output:
 */
 
 export function multiplyBySeven(num) {
-    return true;
+    return num * 7;
 }
 
 // This function should take in a number and multiply it by twelve then cut the result in half
